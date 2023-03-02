@@ -1,8 +1,7 @@
 const express = require('express')
 const app = express()
+const port = 8000
 const cors = require('cors')
-const PORT = 8000
-
 app.use(cors())
 
 const games = {
@@ -66,7 +65,7 @@ const games = {
         'directors': 'Hidetaka Miyazaki, Yui Tanimura',
         'releaseYear': 2022,
         'releasePlatforms': 'PlayStation 4, PlayStation 5, Xbox One, Xbox Series X/S, PC',
-        'copiesSold': '16.6 million',
+        'copiesSold': '20 million',
         'metacriticScore': 96
     },
     'git gud':{
@@ -93,6 +92,6 @@ app.get('/api/:gameTitle', (request, response) => {
     }
 })
 
-app.listen(process.env.PORT || PORT, () => {
-    console.log(`The server is running on port ${PORT}.`)
+app.listen(port, () => {
+    console.log(`The server is running. Listening on port ${port}.`)
 })
