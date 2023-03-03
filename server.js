@@ -1,8 +1,10 @@
 const express = require('express')
 const app = express()
-const port = 8000
+const port = process.env.PORT || 8000
 const cors = require('cors')
 app.use(cors())
+
+require('dotenv').config({path: './.env'})
 
 const games = {
     "demon's souls":{
