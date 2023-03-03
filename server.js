@@ -11,64 +11,64 @@ const games = {
         'developer': 'FromSoftware',
         'publishers': 'Japan Studio, Sony Interactive Entertainment',
         'directors': 'Hidetaka Miyazaki',
-        'releaseYear': 2009,
+        'releaseYear': '2009',
         'releasePlatforms': 'PlayStation 3',
         'copiesSold': '135 thousand',
-        'metacriticScore': 89
+        'metacriticScore': '89'
     },
     'dark souls':{
         'developer': 'FromSoftware',
         'publishers': 'Bandai Namco',
         'directors': 'Hidetaka Miyazaki',
-        'releaseYear': 2011,
+        'releaseYear': '2011',
         'releasePlatforms': 'PlayStation 3, Xbox 360',
         'copiesSold': '2.3 million',
-        'metacriticScore': 89
+        'metacriticScore': '89'
     },
     'dark souls ii':{
         'developer': 'FromSoftware',
         'publishers': 'Bandai Namco',
         'directors': 'Tomohiro Shibuya, Yui Tanimura',
-        'releaseYear': 2014,
+        'releaseYear': '2014',
         'releasePlatforms': 'PlayStation 3, Xbox 360, PC',
         'copiesSold': '2.5 million',
-        'metacriticScore': 91
+        'metacriticScore': '91'
     },
     'dark souls iii':{
         'developer': 'FromSoftware',
         'publishers': 'Bandai Namco',
         'directors': 'Hidetaka Miyazaki, Isamu Okano, Yui Tanimura',
-        'releaseYear': 2016,
+        'releaseYear': '2016',
         'releasePlatforms': 'PlayStation 4, Xbox One, PC',
         'copiesSold': '3.2 million',
-        'metacriticScore': 89
+        'metacriticScore': '89'
     },
     'bloodborne':{
         'developer': 'FromSoftware',
         'publishers': 'Sony Interactive Entertainment',
         'directors': 'Hidetaka Miyazaki',
-        'releaseYear': 2015,
+        'releaseYear': '2015',
         'releasePlatforms': 'PlayStation 4',
         'copiesSold': '2 million',
-        'metacriticScore': 92
+        'metacriticScore': '92'
     },
     'sekiro':{
         'developer': 'FromSoftware',
         'publishers': 'Activision',
         'directors': 'Hidetaka Miyazaki, Kazuhiro Hamatani',
-        'releaseYear': 2019,
+        'releaseYear': '2019',
         'releasePlatforms': 'PlayStation 4, Xbox One, PC',
         'copiesSold': '5 million',
-        'metacriticScore': 91
+        'metacriticScore': '91'
     },
     'elden ring':{
         'developer': 'FromSoftware',
         'publishers': 'Bandai Namco',
         'directors': 'Hidetaka Miyazaki, Yui Tanimura',
-        'releaseYear': 2022,
+        'releaseYear': '2022',
         'releasePlatforms': 'PlayStation 4, PlayStation 5, Xbox One, Xbox Series X/S, PC',
         'copiesSold': '20 million',
-        'metacriticScore': 96
+        'metacriticScore': '96'
     },
     'git gud':{
         'developer': 'Git Gud',
